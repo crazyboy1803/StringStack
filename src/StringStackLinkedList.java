@@ -98,7 +98,7 @@ public class StringStackLinkedList
             int count=0;
             for(current=START;current != null ;current=current.next)
             {
-                if(sea.equalsIgnoreCase(current.data))
+                if(sea.equalsIgnoreCase(current.rollno))
                 {
                     count++;
                     break;
